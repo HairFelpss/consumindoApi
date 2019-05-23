@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<body class='page'>
+
+    <section class='container'>
+        <section id='searchContainer' class="searchContainer">
+            <form action="/" method='post'>
+                <input id='searchBar' class="searchBar" type="search" name="search" placeholder="Type the enterprise name">
+
+                <button type='submit' class='btn'> <i class="fa fa-search searchIcon"></i> </button>
+            </form>
+        </section>
+
+        <article id='libsArticle' class="listArticle">
+            <% if(locals.name && locals.price){ %>
+                <p>
+                   O nome da empresa é <%= name %><br>
+                    e o ultimo valor é de $<%= price %>
+                </p>
+                <% } %>
+        </article>
+    </section>
+
+
+
+</body>
+
+</html>

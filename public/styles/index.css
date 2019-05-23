@@ -1,0 +1,59 @@
+.page {
+    margin: 0;
+    background: linear-gradient(to right, #0CA7E8 50%, #FF5E0D 0%);
+    height: 100vh;
+    color: #fff;
+    font-family: 'Open Sans'
+}
+
+.container {
+    padding-top: 10%;
+    margin: 0 auto;
+    width: 15%;
+    text-align: center;
+}
+
+.searchContainer {
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(184, 175, 184, 1);
+    width: 100%;
+    background: white;
+}
+
+form {
+    margin: 0 auto;
+}
+
+.searchBar {
+    text-align: center;
+    border-color: transparent;
+}
+
+.btn {
+    background-color: transparent;
+    border-color: transparent;
+    margin: 0;
+}
+
+.searchIcon {
+    padding: 0.5rem;
+    background: white;
+    color: #4A90E2;
+}
+
+.infoTitle {
+    color: #4A4A4A;
+    font-size: 32px;
+}
+
+.infoSubTitle {
+    color: #9B9B9B;
+    font-size: 16px;
+}
+
+.infoText {
+    margin: 0px;
+    color: #4A4A4A;
+    font-size: 13px;
+}
